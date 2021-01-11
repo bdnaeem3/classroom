@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from "react-redux";
+import { Router, Switch, Route } from "react-router-dom";
+
+// Layouts
+import PublicTemplate from "./templates/PublicTemplate";
+import PrivateTemplate from "./templates/PrivateTemplate";
+
+// Browser History
+import history from "./utils/history";
+
+// Redux Store
+import store from "./redux/store";
+
+// Routes
+import routes from "./routes/routes";
+
+// CSS
+import "./styles/app.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router history={history}>
+        <Switch>
+          {routes.map((route, i) => {
+            const Component = route.component;
+            const Layout =
+              route.type === "private" ? PrivateTemplate : PublicTemplate;
+            return (
+              <Route
+                key={i}
+                path={route.path}
+                exact={route.exact ? route.exact : true}
+              >
+                <Layout>
+                  <Component history={history.location} />
+                </Layout>
+              </Route>
+            );
+          })}
+        </Switch>
+      </Router>
+    </Provider>
   );
 }
 

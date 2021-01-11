@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+  }
+}
+
+ul {
+  list-style: none;
+}
