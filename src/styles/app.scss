@@ -5,8 +5,10 @@
 @import "./abstract/mixins";
 @import "./abstract/sizing";
 
-// Base
+// Bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+// Base
 @import "./base/reset";
 @import './base/common';
 @import "./base/animations";
