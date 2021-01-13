@@ -1,12 +1,27 @@
 @import "./base/typograpy";
+
+// Abstract
 @import "./abstract/variables";
-@import "./base/reset";
+@import "./abstract/mixins";
+@import "./abstract/sizing";
+
+// Base
 @import "~bootstrap/scss/bootstrap";
+@import "./base/reset";
 @import './base/common';
 @import "./base/animations";
-@import "./abstract/mixins";
+
+// Vendors
 @import "./vendors/vendors";
+
+// Themes
 @import "./themes/default";
+
+// Layouts
 @import "./layouts/layouts";
+
+// Components
 @import "./components/components";
+
+// Pages
 @import "./pages/pages";
