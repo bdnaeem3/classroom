@@ -1,0 +1,2 @@
+// Popups
+export const TERMS_AND_CONDITIONS_POPUP = 'TERMS_AND_CONDITIONS'

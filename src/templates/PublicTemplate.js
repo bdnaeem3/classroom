@@ -1,8 +1,12 @@
+import { useSelector } from 'react-redux';
+import Popup from '../popups/Popup';
+
 const PublicLayout = (props) => {
+  const ui = useSelector(state=>state.ui)
   return (
     <>
-      "Public Layout"
       {props.children}
+      {ui.popupName !== "" && <Popup/>}
     </>
   );
 };

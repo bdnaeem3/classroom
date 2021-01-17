@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
 
 // Reducers
-import initial from "./reducers/initialReducer";
+import ui from "./reducers/uiReducer";
 
 export default combineReducers({
-  initial,
+  ui,
 });
