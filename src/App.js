@@ -20,7 +20,7 @@ import "./styles/app.scss";
 function App() {
   return (
     <Provider store={store}>
-      <Router history={history}>
+      <Router>
         <Switch>
           {routes.map((route, i) => {
             const Component = route.component;
