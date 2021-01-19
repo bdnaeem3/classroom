@@ -5,9 +5,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PublicTemplate from "./components/templates/PublicTemplate";
 import PrivateTemplate from "./components/templates/PrivateTemplate";
 
-// Browser History
-import history from "./utils/history";
-
 // Redux Store
 import store from "./redux/store";
 
@@ -33,7 +30,7 @@ function App() {
                 exact={route.exact ? route.exact : true}
               >
                 <Layout>
-                  <Component history={history.location} />
+                  <Component />
                 </Layout>
               </Route>
             );
