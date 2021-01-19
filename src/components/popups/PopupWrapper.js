@@ -2,13 +2,13 @@ import { Modal } from "reactstrap";
 import { useDispatch, useSelector } from 'react-redux';
 
 // Constants
-import { TERMS_AND_CONDITIONS_POPUP } from '../constants';
+import { TERMS_AND_CONDITIONS_POPUP } from '../../constants';
 
 // Popups
 import TermsAndConditionsPopup from './TermsAndConditionsPopup';
 
 // Redux Actions
-import { popupAction } from '../redux/actions/uiActions';
+import { popupAction } from '../../redux/actions/uiActions';
 
 const Popups = () => {
   console.log('Popups')

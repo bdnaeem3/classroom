@@ -2,8 +2,8 @@ import { Provider } from "react-redux";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Layouts
-import PublicTemplate from "./templates/PublicTemplate";
-import PrivateTemplate from "./templates/PrivateTemplate";
+import PublicTemplate from "./components/templates/PublicTemplate";
+import PrivateTemplate from "./components/templates/PrivateTemplate";
 
 // Browser History
 import history from "./utils/history";
@@ -12,7 +12,7 @@ import history from "./utils/history";
 import store from "./redux/store";
 
 // Routes
-import routes from "./routes/routes";
+import routes from "./routes";
 
 // CSS
 import "./styles/app.scss";
