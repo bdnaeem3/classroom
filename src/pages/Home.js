@@ -1,8 +1,8 @@
 import { Button } from 'reactstrap';
 import { useDispatch } from 'react-redux';
-import SelectElement from '../helper/SelectElement';
-import { popupAction } from '../../redux/actions/uiActions';
-import { TERMS_AND_CONDITIONS_POPUP } from '../../constants';
+import SelectElement from '../components/helper/SelectElement';
+import { popupAction } from '../redux/actions/uiActions';
+import { TERMS_AND_CONDITIONS_POPUP } from '../constants';
 
 const style = {
   display: 'flex',
