@@ -1,30 +1,353 @@
-import { Button } from 'reactstrap';
-import { useDispatch } from 'react-redux';
-import SelectElement from '../components/helper/SelectElement';
-import { popupAction } from '../redux/actions/uiActions';
-import { TERMS_AND_CONDITIONS_POPUP } from '../constants';
-
-const style = {
-  display: 'flex',
-  minHeight: '100vh',
-  alignItems: 'center',
-  justifyContent: 'center',
-  flexDirection: 'column'
-}
-
-const area = ["Dhaka", "Barishal", "Rangpur", "Boruga", "Jamalpur", "Norsingdi", "Chittagong", "Swarupkathi"]
+import { Container, Col } from 'reactstrap';
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+import Banner from '../layouts/Banner';
+import Course from '../components/cards/Course';
 
 const HomePage = () => {
-  const dispatch = useDispatch();
-  
-  const popupHandler = () => {
-    dispatch(popupAction(TERMS_AND_CONDITIONS_POPUP));
-  }
+  return (
+    <>
+      <Banner/>
+      <Container className="mt-4">
+        <div className="mx-n3">
+          <ResponsiveMasonry
+            columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+          >
+            <Masonry>
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
 
-  return <div style={style}>
-    <Button onClick={popupHandler}>Show Popup</Button>
-    <SelectElement className="mt-3" items={area}/>
-  </div>;
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/1.png"
+                  title="Kamla"
+                  desc="16 Kelas"
+                  url="/"
+                  style={{height: 120}}
+                />
+              </Col>
+              
+              <Col>
+                <Course
+                  image="/images/courses/2.png"
+                  title="Kamla 1"
+                  desc="166 Kelas"
+                  url="/"
+                  style={{height: 160}}
+                />
+              </Col>
+
+              <Col>
+                <Course
+                  image="/images/courses/3.png"
+                  title="Amla"
+                  desc="96 Kelas"
+                  url="/"
+                  style={{height: 180}}
+                />
+              </Col>
+            </Masonry>
+          </ResponsiveMasonry>
+        </div>
+      </Container>
+    </>
+  )
 };
 
 export default HomePage;
