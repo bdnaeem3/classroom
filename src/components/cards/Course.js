@@ -3,7 +3,7 @@ const Course = props => {
 
   return (
     <a href={url} className="course-card" {...rest}>
-      <img src={image} alt="" className="course-photo"/>
+      <img src={image} alt="" className="course-photo w-100"/>
       <div className="course-card__content">
         <h3>{title}</h3>
         <p>{desc}</p>

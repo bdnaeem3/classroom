@@ -2,7 +2,7 @@ import { Container } from 'reactstrap';
 
 const Header = () => {
   return (
-    <Container className="mt-4">
+    <Container className="mt-4" fluid>
       <div className="center-between">
         <a href="/" className="logo">
           <img src="/images/logo.png" alt=""/>

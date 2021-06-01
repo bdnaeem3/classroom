@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Banner = () => {
   return (
-    <Container className="mt-4">
+    <Container className="mt-4" fluid>
       <div className="banner">
         <Row className="align-items-center">
           <Col xs="4">

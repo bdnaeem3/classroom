@@ -4,13 +4,13 @@ import { Google, Facebook, Twitter } from '../icons';
 
 const Login = () => {
   return (
-    <Container className="mt-4 mb-5">
+    <Container className="mt-4 mb-5" fluid>
       <Row className="align-items-center">
-        <Col xs="6">
-          <img src="/images/login.png" alt=""/>
+        <Col xs="7">
+          <img src="/images/login.png" alt="" className="w-100"/>
         </Col>
 
-        <Col xs="6">
+        <Col xs="5">
           <h1>Welcome Back :)</h1>
           <p>To keep connected with us please login with your personal information by email address and password</p>
           <LoginForm/>

@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <Banner/>
-      <Container className="mt-4">
+      <Container className="mt-4" fluid>
         <div className="mx-n3">
           <ResponsiveMasonry
             columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}

@@ -16,3 +16,52 @@
     }
   }
 }
+
+.question-helper-btn {
+  svg {
+    height: 40px;
+  }
+}
+
+.question-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  > div:not(.question) {
+    align-self: flex-end;
+    margin-bottom: 70px;
+  }
+}
+
+.history-btn {
+  position: absolute;
+  bottom: calc(50% + 10px);
+  left: 50px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.7);
+}
+
+
+@media (max-width: 991px) {
+  .question-helper-btn {
+    svg {
+      height: 30px;
+    }
+  }
+  .history-btn {
+    left: 20px;
+  }
+  .question-wrapper {
+    > div:not(.question) {
+      margin-bottom: 30px;
+    }
+  }
+}
