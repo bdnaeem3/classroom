@@ -8,9 +8,9 @@ const HomePage = () => {
     <>
       <Banner/>
       <Container className="mt-4" fluid>
-        <div className="mx-n3">
+        <div style={{margin: "0 -15px"}}>
           <ResponsiveMasonry
-            columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+            columnsCountBreakPoints={{1:1, 319: 2, 767: 3, 1023: 4, 1199: 5}}
           >
             <Masonry>
               <Col>

@@ -11,6 +11,7 @@ const routes = [
   {
     path: "/login",
     component: Login,
+    type: 'private'
   },
   {
     path: "/lesson",

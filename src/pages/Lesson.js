@@ -13,7 +13,13 @@ const Lesson = () => {
 
   return (
     <>
-      <ReactPlayer url='https://www.youtube.com/watch?v=pxl0rQ6TeXI&ab_channel=YRFYRFVerified' width="100%" height="100vh" style={{overflow: 'hidden'}} controls onEnded={videoEndedHandler}/>
+      <ReactPlayer 
+        url='https://www.youtube.com/watch?v=pxl0rQ6TeXI&ab_channel=YRFYRFVerified' 
+        width="100%" 
+        height="100vh" 
+        style={{overflow: 'hidden'}} 
+        onEnded={videoEndedHandler}
+      />
 
       {
         videoEnded &&
