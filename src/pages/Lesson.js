@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Container } from 'reactstrap';
-import ReactPlayer from 'react-player/youtube'
+import ReactPlayer from 'react-player/vimeo'
 import Question from "../components/cards/Question"
 import { Backward, Forward, History } from '../icons';
 
@@ -14,11 +14,15 @@ const Lesson = () => {
   return (
     <>
       <ReactPlayer 
-        url='https://www.youtube.com/watch?v=pxl0rQ6TeXI&ab_channel=YRFYRFVerified' 
+        url='https://player.vimeo.com/video/281921423' 
         width="100%" 
         height="100vh" 
         style={{overflow: 'hidden'}} 
         onEnded={videoEndedHandler}
+        config={{
+          vimeo: {}
+        }}
+        controls
       />
 
       {
