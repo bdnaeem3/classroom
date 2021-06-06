@@ -1,7 +1,11 @@
 import { Container } from 'reactstrap';
 import { Bar } from '../icons';
+import { useHistory } from 'react-router-dom';
 
 const Header = () => {
+  const history = useHistory();
+  const pathName = history.location.pathname
+
   return (
     <Container className="mt-4" fluid>
       <div className="center-between">
@@ -13,10 +17,13 @@ const Header = () => {
           <img src="/images/logo.png" alt=""/>
         </a>
 
-        <div className="d-flex align-items-center">
-          <p className="d-none d-md-block">Sara Merely</p>
-          <img src="/images/avatar.png" alt="" className="avatar"/>
-        </div>
+        {
+          pathName !== "/login" &&
+          <div className="d-flex align-items-center">
+            <p className="d-none d-md-block">Sara Merely</p>
+            <img src="/images/avatar.png" alt="" className="avatar"/>
+          </div>
+        }
       </div>
     </Container>
   )

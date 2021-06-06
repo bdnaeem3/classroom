@@ -10,8 +10,7 @@ const routes = [
   },
   {
     path: "/login",
-    component: Login,
-    type: 'private'
+    component: Login
   },
   {
     path: "/lesson",

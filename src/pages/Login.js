@@ -4,13 +4,13 @@ import { Google, Facebook, Twitter } from '../icons';
 
 const Login = () => {
   return (
-    <Container className="mt-4 mb-5" fluid>
-      <Row className="align-items-center">
-        <Col xs="12" md="7">
-          <img src="/images/login.png" alt="" className="w-100"/>
-        </Col>
+    <Container className="mt-4 window-height" fluid>
+      <div className="d-flex align-items-center flex-column flex-lg-row">
+        <img src="/images/login.jpg" alt="" className="login-image"/>
 
-        <Col xs="12" md="5">
+        <div className="p-4" style={{
+          background: "#ededed"
+        }}>
           <h1 className="mt-4 mt-md-0">Welcome Back :)</h1>
           <p>To keep connected with us please login with your personal information by email address and password</p>
           <LoginForm/>
@@ -20,8 +20,8 @@ const Login = () => {
             <li><a href="/"><Facebook/></a></li>
             <li><a href="/"><Twitter/></a></li>
           </ul>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </Container>
   )
 }

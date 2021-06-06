@@ -18,7 +18,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -28,7 +28,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -38,7 +38,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -48,7 +48,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -58,7 +58,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -68,7 +68,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -78,7 +78,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -88,7 +88,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -98,7 +98,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -108,7 +108,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -118,7 +118,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -128,7 +128,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -138,7 +138,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -148,7 +148,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -158,7 +158,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -168,7 +168,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -178,7 +178,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -188,7 +188,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -198,7 +198,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -208,7 +208,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -218,7 +218,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -228,7 +228,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -238,7 +238,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -248,7 +248,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -258,7 +258,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -268,7 +268,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -278,7 +278,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>
@@ -288,7 +288,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -298,7 +298,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -308,7 +308,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -318,7 +318,7 @@ const HomePage = () => {
                   image="/images/courses/1.png"
                   title="Kamla"
                   desc="16 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 120}}
                 />
               </Col>
@@ -328,7 +328,7 @@ const HomePage = () => {
                   image="/images/courses/2.png"
                   title="Kamla 1"
                   desc="166 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 160}}
                 />
               </Col>
@@ -338,7 +338,7 @@ const HomePage = () => {
                   image="/images/courses/3.png"
                   title="Amla"
                   desc="96 Kelas"
-                  url="/"
+                  url="/lesson"
                   style={{height: 180}}
                 />
               </Col>

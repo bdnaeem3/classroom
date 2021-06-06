@@ -19,6 +19,10 @@
     height: 80px;
     margin: 0 auto 30px;
   }
+  
+  @media (max-width: 991px) {
+    min-width: initial;
+  }
 
   @media (max-width: 640px) {
     min-width: initial;

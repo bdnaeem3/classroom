@@ -65,3 +65,16 @@
     }
   }
 }
+
+.window-height {
+  height: calc(100vh - 60px);
+}
+
+.login-image {
+  max-height: calc(100vh - 60px);
+  max-width: 60%;
+
+  @media (max-width: 991px) {
+    max-width: 100%;
+  }
+}
