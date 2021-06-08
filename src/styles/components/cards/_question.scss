@@ -11,6 +11,10 @@
   h1 {
     color: white;
     text-align: center;
+
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
   }
 
   button {
@@ -27,12 +31,9 @@
   @media (max-width: 640px) {
     min-width: initial;
 
-    h1 {
-      font-size: 30px;
-    }
-
     button {
-      height: 50px;
+      height: 40px;
+      margin: 0 auto 10px;
     }
   }
 }

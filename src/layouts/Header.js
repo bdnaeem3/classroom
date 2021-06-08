@@ -7,7 +7,7 @@ const Header = () => {
   const pathName = history.location.pathname
 
   return (
-    <Container className="mt-4" fluid>
+    <Container className="pt-4" fluid>
       <div className="center-between">
         <div className="d-block d-md-none">
           <Bar/>

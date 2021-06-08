@@ -10,7 +10,8 @@ const routes = [
   },
   {
     path: "/login",
-    component: Login
+    component: Login,
+    bg: `URL('/images/login.jpg')no-repeat top center/cover`
   },
   {
     path: "/lesson",

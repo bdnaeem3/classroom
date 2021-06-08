@@ -76,6 +76,7 @@ const Lesson = () => {
             }
           }
         }}
+        controls
       />
 
       {
