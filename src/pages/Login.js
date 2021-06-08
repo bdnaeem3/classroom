@@ -1,11 +1,11 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 import LoginForm from '../components/forms/LoginForm';
 import { Google, Facebook, Twitter } from '../icons';
 
 const Login = () => {
   return (
-    <Container className="mt-4 window-height" fluid>
-      <div className="d-flex align-items-center flex-column flex-lg-row">
+    <Container fluid>
+      <div className="d-flex align-items-center flex-column flex-xl-row login-page">
         <img src="/images/login.jpg" alt="" className="login-image"/>
 
         <div className="p-4" style={{

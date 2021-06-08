@@ -15,7 +15,8 @@ const routes = [
   {
     path: "/lesson",
     component: Lesson,
-    type: 'private'
+    type: 'private',
+    bg: '#1d4354'
   },
   // exact: true/false | default true
   // type: public/private | default public | private for logged in user pages

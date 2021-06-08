@@ -28,6 +28,8 @@
   align-items: center;
   justify-content: space-around;
 
+  
+  > button:not(.question),
   > div:not(.question) {
     align-self: flex-end;
     margin-bottom: 70px;
@@ -71,10 +73,24 @@
 }
 
 .login-image {
-  max-height: calc(100vh - 60px);
-  max-width: 60%;
+  height: 100%;
+  margin-right: 15px;
 
-  @media (max-width: 991px) {
-    max-width: 100%;
+  @media (max-width: 1199px) {
+    margin-right: 0;
   }
+}
+
+.login-page {
+  height: calc(100vh - 84px);
+  padding-top: 24px;
+}
+
+.video-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
 }

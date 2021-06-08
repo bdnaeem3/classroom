@@ -21,15 +21,14 @@ function App() {
         <Switch>
           {routes.map((route, i) => {
             const Component = route.component;
-            const Layout =
-              route.type === "private" ? PrivateTemplate : PublicTemplate;
+            const Layout = route.type === "private" ? PrivateTemplate : PublicTemplate;
             return (
               <Route
                 key={i}
                 path={route.path}
                 exact={route.exact ? route.exact : true}
               >
-                <Layout>
+                <Layout style={{background: route.bg}}>
                   <Component />
                 </Layout>
               </Route>
