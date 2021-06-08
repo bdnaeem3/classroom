@@ -5,12 +5,10 @@ import { Google, Facebook, Twitter } from '../icons';
 const Login = () => {
   return (
     <Container fluid>
-      <div className="d-flex align-items-center flex-column flex-xl-row login-page">
-        <img src="/images/login.jpg" alt="" className="login-image"/>
-
-        <div className="p-4" style={{
-          background: "#ededed"
-        }}>
+      <div className="d-flex align-items-center justify-content-end login-page" style={{
+        background: `URL('/images/login.jpg')no-repeat top center/cover`
+      }}>
+        <div className="p-4 login-content">
           <h1 className="mt-4 mt-md-0">Welcome Back :)</h1>
           <p>To keep connected with us please login with your personal information by email address and password</p>
           <LoginForm/>

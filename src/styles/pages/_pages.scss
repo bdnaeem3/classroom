@@ -40,6 +40,10 @@
   position: absolute;
   bottom: calc(50% + 10px);
   left: 50px;
+
+  @media (max-width: 319px) {
+    left: 5px;
+  }
 }
 
 .overlay {
@@ -59,7 +63,7 @@
     }
   }
   .history-btn {
-    left: 20px;
+    left: 15px;
   }
   .question-wrapper {
     > div:not(.question) {
@@ -88,9 +92,14 @@
 
 .video-cover {
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   width: 100%;
   z-index: -1;
   height: 100%;
+}
+
+.login-content {
+  max-width: 480px;
+  background: #ededed; 
 }
