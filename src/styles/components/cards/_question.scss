@@ -3,7 +3,7 @@
   max-width: 70vw;
   background: rgba(0,0,0,.6);
   border-radius: 8px;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,16 +11,17 @@
   h1 {
     color: white;
     text-align: center;
+    font-size: 30px;
 
     @media (max-width: 767px) {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 
   button {
     width: 50%;
     min-width: 200px;
-    height: 80px;
+    height: 60px;
     margin: 0 auto 30px;
   }
   
