@@ -105,8 +105,11 @@
 
 .login-content {
   max-width: 480px;
-  background: #ededed; 
+  background: rgba(237, 237, 237, .7);
   margin-right: 10%;
+  position: relative;
+  top: -20px;
+  border-radius: 10px;
 
   @media (max-width: 767px) {
     margin-right: 0;
