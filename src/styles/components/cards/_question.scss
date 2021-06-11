@@ -19,17 +19,13 @@
   }
 
   button {
-    width: 50%;
-    min-width: 200px;
+    width: 90%;
+    max-width: 200px;
     height: 60px;
     margin: 0 auto 30px;
   }
-  
-  @media (max-width: 991px) {
-    min-width: initial;
-  }
 
-  @media (max-width: 640px) {
+  @media (max-width: 767px) {
     min-width: initial;
 
     button {

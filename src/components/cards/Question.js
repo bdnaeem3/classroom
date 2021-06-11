@@ -22,7 +22,7 @@ const Question = props => {
         {
           answers.map((answer,i)=>{
             return (
-              <Col xs="12" sm="6" className="center" key={i}>
+              <Col xs="6" className="center" className="px-2 px-md-4 text-center" key={i}>
                 <Button onClick={()=>checkAnswerHandler(i)} color={markedAnswer === i ? isCorrect ? 'success' : 'danger' : 'primary'}>{answer}</Button>
               </Col>
             )
