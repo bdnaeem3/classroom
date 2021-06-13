@@ -39,6 +39,7 @@ const Lesson = () => {
   const [ videoEnded, setVideoEnded ] = useState(false);
   const [ replay, setReply ] = useState(0)
   const [ questionNo, setQuestionNo ] = useState(1);
+  const [ playVideo, setPlayVideo ] = useState(false);
   const item = data[questionNo - 1]
 
   const videoEndedHandler = () => {
@@ -63,19 +64,25 @@ const Lesson = () => {
   return data.length > 0 
   ? (
     <div>
+      {
+        !videoEnded &&
+        <div className="overlay" style={{background: 'transparent'}} onClick={()=>setPlayVideo(!playVideo)}></div>
+      }
+      
       <ReactPlayer
         url={`${item.url}?${replay}`} 
         width="100%" 
         height="100vh" 
         style={{overflow: 'hidden'}} 
         onEnded={videoEndedHandler}
-        config={{
-          vimeo: {
-            playerOptions: {
-              autoplay: true
-            }
-          }
-        }}
+        playing={playVideo}
+        // config={{
+        //   vimeo: {
+        //     playerOptions: {
+        //       autoplay: true
+        //     }
+        //   }
+        // }}
       />
 
       {
